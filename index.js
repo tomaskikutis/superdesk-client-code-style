@@ -109,6 +109,13 @@ module.exports = {
         "block-spacing": 2,
         "brace-style": [2, "1tbs"],
         "camelcase": [2, {"properties": "never"}],
+        "comma-dangle": ["error", {
+            "arrays": "always-multiline",
+            "objects": "always-multiline",
+            "imports": "always-multiline",
+            "exports": "always-multiline",
+            "functions": "always-multiline",
+        }],
         "comma-spacing": 2,
         "comma-style": 2,
         "computed-property-spacing": 2,
