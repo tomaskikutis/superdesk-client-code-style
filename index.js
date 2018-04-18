@@ -114,7 +114,7 @@ module.exports = {
             "objects": "always-multiline",
             "imports": "always-multiline",
             "exports": "always-multiline",
-            "functions": "always-multiline"
+            "functions": "always-multiline",
         }],
         "comma-spacing": 2,
         "comma-style": 2,
