@@ -57,9 +57,6 @@ module.exports = {
         "react/self-closing-comp": 2,
         "react/prefer-es6-class": 2,
 
-        // Temporary measure because of deprecation of componentWillMount/componentWillReceiveProps lifecycle methods
-        "react/no-deprecated": 1,
-
         // deprecated apis
         "react/no-find-dom-node": 1,
         "react/no-string-refs": 1,
@@ -168,5 +165,10 @@ module.exports = {
         "rest-spread-spacing": 2,
         "template-curly-spacing": 2,
         "yield-star-spacing": 2
+    },
+    "settings": {
+        "react": {
+            "version": "16.2"
+        }
     }
 };
