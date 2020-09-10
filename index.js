@@ -61,6 +61,30 @@ module.exports = {
         "react/no-find-dom-node": 1,
         "react/no-string-refs": 1,
 
+        "react/jsx-closing-bracket-location": [2, "tag-aligned"],
+        "react/jsx-max-props-per-line": [2, {
+            "maximum": 1,
+            "when": "multiline",
+        }],
+        "react/jsx-first-prop-new-line": [2, "multiline"],
+        "react/jsx-wrap-multilines": [2, {
+            "declaration": "parens-new-line",
+            "assignment": "parens-new-line",
+            "return": "parens-new-line",
+            "arrow": "parens-new-line",
+            "condition": "parens-new-line",
+            "logical": "parens-new-line",
+            "prop": "parens-new-line"
+        }],
+        "react/jsx-tag-spacing": [2, {
+            "closingSlash": "never",
+            "beforeSelfClosing": "always",
+            "afterOpening": "never",
+            "beforeClosing": "allow",
+        }],
+        "react/jsx-curly-spacing": [2, "never"],
+        "react/jsx-fragments": [2, "element"],
+
         "array-callback-return": 2,
         "block-scoped-var": 2,
         "complexity": [1, 10],
