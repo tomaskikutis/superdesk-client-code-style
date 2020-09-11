@@ -83,7 +83,6 @@ module.exports = {
             "beforeClosing": "allow",
         }],
         "react/jsx-curly-spacing": [2, "never"],
-        "react/jsx-fragments": [2, "element"],
 
         "array-callback-return": 2,
         "block-scoped-var": 2,
