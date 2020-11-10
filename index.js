@@ -63,7 +63,7 @@ module.exports = {
 
         "array-callback-return": 2,
         "block-scoped-var": 2,
-        "complexity": [1, 10],
+        "complexity": 0,
         "no-alert": 2,
         "no-caller": 2,
         "no-console": ["error", {allow: ["info", "warn", "error"]}],
@@ -103,6 +103,8 @@ module.exports = {
         // jasmine
         "jasmine/new-line-before-expect": 0,
         "jasmine/new-line-between-declarations": 0,
+        "jasmine/prefer-toHaveBeenCalledWith": 0,
+        "jasmine/no-promise-without-done-fail": 0, // keep code concise, let it time out
 
         // style
         "array-bracket-spacing": [2, "never"],
